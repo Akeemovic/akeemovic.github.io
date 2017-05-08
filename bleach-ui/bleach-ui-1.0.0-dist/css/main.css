@@ -1,0 +1,23 @@
+.small-bar {
+	border-bottom: 4px solid #fff;
+	margin: 2px 2px;
+	display: block;
+	width: 20px;
+}
+
+.small-ball:last-child {
+	margin: 0;
+}
+
+.image-card .image {
+	/* height: 200px; */
+}
+
+.image-card .image img {
+	height: 230px;
+	width: 100%;
+}
+
+.footer {
+	font-size: 1em;
+}

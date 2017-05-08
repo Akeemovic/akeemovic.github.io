@@ -5,26 +5,203 @@
 	  <meta http-equiv="x-ua-compatible" content="ie=edge">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	  <title> </title>
+	  <title> Bleach UI - Design with Love </title>
 
-	  <link rel="stylesheet" href="dist/css/bleach-ui-1.0.0.css">
-	  <link rel="icon" href="images/favicon.png">
+	  <link rel="stylesheet" href="bleach-ui-1.0.0-dist/css/bleach-ui-1.0.0.css">
+	  <link rel="stylesheet" href="bleach-ui-1.0.0-dist/css/main.css">
+	  <link rel="icon" href="bleach-ui-1.0.0-dist/images/favicon.ico">
 	</head>
 	<body>
-		<div class="navbar">
-			<div class="navbar-header">
-				<div class="navbar-logo">
-					<img src="dist/images/main-logo.png" alt="Bleach-UI">
+		<header>
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<div class="navbar-logo">
+							<span> Bleach UI </span>
+						</div>
+						<button id="nav-toggle">
+							<span class="small-bar"> </span>
+							<span class="small-bar"> </span>
+							<span class="small-bar"> </span>		
+						</button>
+						<input type="search" name="" value="" placeholder="Search Here">
+						<button class="btn-success"> Search </button>	
+					</div>
+					<div class="navbar-body nav-right">
+						<ul class="navbar-list">
+							<li>
+								<a href="#getStarted" title="Getting Started"> Get Started </a>
+							</li>
+							<li>
+								<a href="#builtWithBleach" title="Built with Bleach UI"> Built with Bleach UI </a>
+							</li>
+							<li>
+								<a href="https://github.com/Akeemovic/bleach-ui" title="Contribute"> Contribute </a>
+							</li>
+						</ul>
+					</div>
 				</div>	
-			</div>
-			<div class="navbar-body">
-				
-			</div>
-		</div>
-		<div class="jumbotron">
+			</nav>
+		</header>
 			
-		</div>
-	<script src="dist/js/jquery-3.1.1.js"></script>
-	<script src="dist/js/jquery-bleach-ui.js"></script>
+		<section class="jumbotron text-center" style="padding: 25px;">
+			<div class="line-break">
+				<img src="bleach-ui-1.0.0-dist/images/main-logo.png" alt="Bleach-UI">	
+			</div>
+			<div class="line-break">
+				<h1> Bleach UI </h1>
+				<p> Light weight HTML, CSS, and JS framework for designing/developing responsive, mobile first applications. </p>
+			</div>	
+			<div class="center-block"> <a href="#getStarted" class="btn btn-square"> Get Started </a> <a href="#templates" class="btn btn-square"> Templates </a></div>
+		</section>
+		<section class="container" style="margin-bottom: 27px;">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-6" style="padding: 5px 5px;">
+						<div class="panel panel-info">
+							<div class="panel-header">
+								<span> Web Themes &amp; Templates </span>
+							</div>
+							<div class="panel-body">
+								<p class="line-break">
+									Ready made web themes and templates for even faster customization and increased productivity
+								</p>
+								<a href="#" class="btn btn-square btn-warning"> Learn More &raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6" style="padding: 5px 5px;">
+						<div class="panel panel-success">
+							<div class="panel-header">
+								<span> Email Templates </span>
+							</div>
+							<div class="panel-body">
+								<p class="line-break"> Bleach UI email templates provides responsive HTML emails that enable your readers to be able to read your mails anywhere on any device.
+								</p>
+								<a href="#" class="btn btn-square btn-warning"> Learn More &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</section>
+
+		<section class="container" style="margin-bottom: 27px;">
+			<div class="page-header text-center"><h3> Fast, Responsive, Customizable and Clean Design. </h3></div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 text-center" style="padding: 5px;">
+					<img class="img-circle" src="bleach-ui-1.0.0-dist/images/responsive.png" alt="">
+					<h3> Responsive </h3>
+					<p> With Bleach UI, your websites work well cross all browsers and devices with only a single code base. </p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center" style="padding: 5px;">
+					<img class="img-circle" src="bleach-ui-1.0.0-dist/images/fast.png" alt="">
+					<h3> Fast </h3>
+					<p> Bleach UI already does alot for you by just linking it's stylesheet. Ypu only have to add few classes to your markups to get more of it.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center" style="padding: 5px;">
+					<img class="img-circle" src="bleach-ui-1.0.0-dist/images/customize.png" alt="">
+					<h3> Customizable </h3>
+					<p> You can customize your build to include or remove certain elements, as well as define the size of columns, colors, font size and more.. </p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center" style="padding: 5px;">
+					<img class="img-circle" src="bleach-ui-1.0.0-dist/images/clean-code.gif">
+					<h3> Clean Code</h3>
+					<p>Clean and semantic code. You can have the cleanest markup without sacrificing utility and speed. </p>
+				</div>
+			</div>
+		</section>
+
+		<section class="container" style="margin-bottom: 27px;">
+			<div class="page-header text-center">
+				<h3> Meet the Team </h3>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6" style="padding: 5px;">
+					<div class="image-card">
+						<div class="image">
+							<img src="bleach-ui-1.0.0-dist/images/abdulakeem.jpg" alt="">
+						</div>
+						<div class="body">
+							<h4> Abdulakeem Gbadamosi </h4>
+							<p> Manager / Web Developer </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" style="padding: 5px;">
+					<div class="image-card">
+						<div class="image">
+							<img src="bleach-ui-1.0.0-dist/images/bird.jpg" alt="">
+						</div>
+						<div class="body">
+							<h4> Johnson F. Bently </h4>
+							<p> Architect &amp; Software Engineer </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" style="padding: 5px;">
+					<div class="image-card">
+						<div class="image">
+							<img src="bleach-ui-1.0.0-dist/images/bird.jpg" alt="">
+						</div>
+						<div class="body">
+							<h4> Jane Doe </h4>
+							<p> Web developer &amp; Engineer </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" style="padding: 5px;">
+					<div class="image-card">
+						<div class="image">
+							<img src="bleach-ui-1.0.0-dist/images/bird.jpg" alt="">
+						</div>
+						<div class="body">
+							<h4> Carson Wayson </h4>
+							<p> Web Developer &amp; Software Engineer </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container" style="margin-bottom: 27px;">
+			<div class="page-header text-center">
+				<h3> Drop a Comment </h3>
+			</div>
+			<div class="row">
+				<form action="#" method="get" accept-charset="utf-8">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+							<div class="col-md-3">
+								<label> Name: </label>
+							</div>
+							<div class="col-md-9">
+								<input type="text" name="" value="" placeholder="Your Name">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<label> Comment: </label>
+							</div>
+							<div class="col-md-9">
+								<textarea name=""  placeholder="Your Comments go here...."></textarea>
+							</div>
+						</div>
+						<button class="btn-success btn-round pull-right"> Submit Comment </button>		
+					</div>	
+				</form>
+			</div>
+		</section>	
+		<footer class="footer container">
+			<p class="inline-block"> 2017 Bleach-UI </p>	
+			<ul class="list-unstyled list-inline">
+				<li><a href="http://facebook.com/akeemovicproxy"> Facebok </a> </li>
+				<li><a href="http://twitter.com/akeemovicprime"> Twitter </a> </li>
+				<li><a href="#"> About Me </a> </li>
+				<li><a href="https://github.com/Akeemovic/bleach-ui"> Contribute </a> </li>
+			</ul>
+		</footer>
+	<script src="bleach-ui-1.0.0-dist/js/jquery-3.1.1.js"></script>
+	<script src="bleach-ui-1.0.0-dist/js/bleach-ui.js"></script>
 	</body>
 </html>
